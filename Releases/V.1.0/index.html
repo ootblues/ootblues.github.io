@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+        <!--Basic browser/device info-->
+        <title>Out Of the Blue Studios</title>
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400" rel="stylesheet">
+		<!--Style and Scripts-->
+		<link rel="stylesheet" href="css/style.css">
+		<script src="script.js"></script>
+		<!--Mobile Optimization-->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- js -->
+        <script src="js/classie.js"></script>
+        <script>
+            function init() {
+                window.addEventListener('scroll', function(e){
+                    var distanceY = window.pageYOffset || document.documentElement.scrollTop,
+                        shrinkOn = 1,
+                        header = document.querySelector(".header2");
+                    if (distanceY > shrinkOn) {
+                        classie.add(header,"smaller");
+                    } else {
+                        if (classie.has(header,"smaller")) {
+                            classie.remove(header,"smaller");
+                        }
+                    }
+                });
+            }
+            window.onload = init();
+        </script>
+	</head>
+    <body>
+
+        <!--Header Start-->
+        <div class="hej">
+            <div class="header2">
+                <div class="logo12">
+                    <img src="./images/logowht.png">  
+                </div>
+            </div>
+            <div class="header_nav2">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+            </ul>
+            </div>
+        </div>
+        <!--Header End-->
+
+        <!--Section Slider Start-->
+        <section class="slider">
+            <div style="padding-top: 10%;"></div>
+            <center><h1>SLIDER HERE</h1></center>
+        </section>
+        <!--Section Slider End-->
+        <div class="sectionbreaker"></div>
+        <!--Section Firstboxes Start-->
+        <section class="first-boxes">
+            <div class="first-boxes-container">
+                 <div class="box blog-box">
+                    <h1 class="header blogheaderleft">We're hiring!</p>
+                    <hr>
+                    <p>Our games are mostly made using Unity3D.</p>
+                    <p>Artists and Designers are in demand on our teams.</p>
+                    <p>We can always benefit from more concept artists and specialists in different areas of 3D.</p>
+                    <p>A lot of people like to think that they are a designer. What we need is people that specialize in areas of design and are actually as good as they think they are.</p>
+                    <p><a href="./jobs.php">View Jobs</a></p>
+                </div>
+                <div class="box welcome-box">
+                    <h1 class="header">Welcome to Out Of The Blue Studios</p>
+                    <hr>
+                    <p>Regardless of whether you are a gamer, a game developer or an investor out of the blue studios strives to have the best tools and systems to make your life easier and more enjoyable.</p>
+
+                    <p>We are about creating opportunities for Indie Developers seeking to turn their hobby into a career path or to get help developing and publishing their own concept. For new studios we give them access to our tools and resources and help publishing and marketing their game.</p>
+
+                    <p>For Gamers we bring some really cool innovative games. We plan to foster a really awesome gamer community.</p>
+
+                    <p>For investors we bring some carefully selected opportunities. Opportunities to invest in the future of game development.</p>
+                </div>
+                <div class="box blog-box">
+                    <h1 class="header">We're hiring!</p>
+                    <hr>
+                    <p>We are seeking dedicated, talented Game and Enterprise Developers.
+                    <p>We cherish and foster Leadership.</p>
+                    <p>Game Dev.</p>
+                    <p>skills can be gained through admin., management and other valued support roles.</p>
+                    <p><a href="./jobs.php">View Jobs</a></p>
+                </div>
+            </div>
+        </section>
+        <!--Section Firstboxes End-->
+        <!--Section Projects Start-->
+        <section class="projectssection">
+            <h1>Projects</h1>
+            <p style="color:red;text-align:center;">SLIDER HERE</p>
+        </section>
+        <!--Section Projects End-->
+        <!--Section Screenshots Start-->
+        <section class="screenshotssection">
+            <div>
+                <h1 class="header">Screenshots</h1>
+                <p style="color:red;text-align:center;">SLIDER HERE</p>
+            </div>
+        </section>
+        <!--Section Screenshots End-->
+        <div class="sectionbreaker"></div>
+        <!--Section About Us Start-->
+        <section class="aboutussection">
+            <div>
+                <h1>About Us</h1>
+            </div>
+        </section>
+        <!--Section About Us End-->
+        <!--Footer Start-->
+        <div class="footer">
+            <center>
+                <img class="logo" src="./images/logowht.png">
+                <div class="footercontainer">
+                    <div>
+                        <h3>Company</h3>
+                        <p><a href="./jobs.php">Jobs</a></p>
+                        <p><a href="#">Press</a></p>
+                    </div>
+                    <div>
+                        <h3>Projects</h3>
+                        <p><a href="#">Zoo92</a></p>
+                        <p><a href="#">Salt Of The Earth</a></p>
+                        <p><a href="#">The Prophecy</a></p>
+                    </div>
+                    <div>
+                        <h3>Support</h3>
+                        <p><a href="#">Help</a></p>
+                        <p><a href="#">FAQs</a></p>
+                        <p><a href="#">Contact</a></p>
+                    </div>
+                </div>
+                <div class="footercontainer2">
+                    <div class="left">
+                        <p>Copyright © 2017 Out Of the Blue Studios</p>
+                    </div>
+                    <div class="right">
+                        <a class="socialmediaicon" href="https://www.facebook.com/OutoftheBlueStudios"><img class="socialmediaicon" src="./images/facebook.png"></a>
+                        <a class="socialmediaicon" href="http://www.instagram.com"><img class="socialmediaicon" src="./images/instagram.png"></a>
+                        <a class="socialmediaicon" href="http://www.twitter.com"><img class="socialmediaicon" src="./images/twitter.png"></a>
+                        <p><a href="./login/login.php">Member Login</a></p>
+                    </div>
+                </div>
+            </center>
+        </div>
+        <!--Footer end-->
+    </body>
+</html>
