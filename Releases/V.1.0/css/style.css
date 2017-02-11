@@ -2,7 +2,7 @@
 html, body {
   height: 100%;
   margin: 0;
-  word-wrap: break-word; 
+  word-wrap: break-word;
 }
 body{
 	background-color: #fafafa;
@@ -69,16 +69,6 @@ h1,h2,h3,h4,h5,h6{
     color: #fff;
     margin-bottom: 200%;
 }
-ul li{
-    display: inline-block;
-    margin-right: 5%;
-    padding: 3px 20px 3px 20px;
-    background-color: #000;
-    line-height: 16px;
-    margin-top: 25px;
-    border: 2px solid #3E79DB;
-}
-
 /*Header End*/
 
 /*Section Breaker Start*/
@@ -93,9 +83,29 @@ div.sectionbreaker{
 /*Section Slider Start*/
 section.slider{
   width: 100%;
-  height: 85%;
-  background-color: #666;
+  height: auto;
+  max-height: 85%;
+  background-color: #999;
 }
+
+.slick-slide {
+  margin: 0px 0px;
+  padding: 0;
+  width: 100vw;
+}
+
+.slick-slide img {
+  width: 100vw;
+  max-height: 70vh;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color: black;
+}
+
+
+
 /*Section Slider End*/
 
 /*Section Firstboxes Start*/
@@ -110,7 +120,7 @@ section.first-boxes{
 .first-boxes-container {
   width: 100%;
   margin: auto;
-  display: inline-block; 
+  display: inline-block;
 }
 .first-boxes-container div.box {
   margin-left: 2.5%;
@@ -126,7 +136,7 @@ section.first-boxes{
   width: 95%;
   height: 1px;
   background-color: #e5e5e5;
-} 
+}
 div.box p {
   width: 95%;
   margin: auto;
@@ -170,7 +180,7 @@ section.screenshotssection{
   background-color: #3366FF;
   overflow: auto;
   color: #fff;
-  padding-top:3%; 
+  padding-top:3%;
   min-height: 30%;
 }
 section.screenshotssection h1.header{
@@ -180,7 +190,7 @@ section.screenshotssection h1.header{
 }
 section.screenshotssection p{
   text-align: center;
-  font-size: 2em; 
+  font-size: 2em;
 }
 /*Section Screenshots End*/
 
@@ -238,7 +248,7 @@ div.footer{
 .footercontainer2 > div.left {
     text-align: left;
 }
-.footercontainer2 > div.right {  
+.footercontainer2 > div.right {
     text-align: right;
 }
 img.logo{
@@ -279,7 +289,7 @@ div.footer  a:hover{
     text-align: center;
     padding-bottom: 2%;
   }
-  .footercontainer2 > div.right {  
+  .footercontainer2 > div.right {
     text-align: center;
   }
 }
