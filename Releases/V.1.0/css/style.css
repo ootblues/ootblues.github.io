@@ -142,7 +142,7 @@ div.box p {
   margin: auto;
   margin-top: 1%;
   margin-bottom: 1%;
-  font-size: 0.8em;
+  font-size: 0.6em;
   text-align: center;
 }
 div.welcome-box {
@@ -201,11 +201,34 @@ section.aboutussection{
   padding-top: 3%;
   min-height: 30%;
 }
-section.aboutussection h1{
+section.aboutussection h1.header{
   width:100%;
   background-color: #3366FF;
   text-align: center;
   color: #fff;
+}
+div.aboutussectionboxes{
+  width: 100%;
+  color: #fff;
+}
+div.aboutussectionbox{
+  float: left;
+  font-size: 1.3em;
+}
+div.box25{
+  width:25%;
+}
+div.box50{
+  width:50%;
+}
+div.boxleft{
+  text-align: center;
+}
+div.boxmiddle{
+  text-align: center;
+}
+div.boxright{
+  text-align: right;
 }
 /*Section About Us End*/
 
