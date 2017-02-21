@@ -93,10 +93,10 @@ section.slider{
   padding: 0;
   width: 100vw;
 }
-
+/* max-height from 70vh*/
 .slick-slide img {
   width: 100vw;
-  max-height: 70vh;
+  max-height: 80vh;
 }
 
 .slick-prev:before,
