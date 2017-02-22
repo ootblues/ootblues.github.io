@@ -145,7 +145,7 @@ div.box p {
   width: 95%;
   margin: auto;
   margin-top: 1%;
-  margin-bottom: 2%;
+  margin-bottom: 0.5em;
   font-size: 0.7em;
   text-align: center;
 }
