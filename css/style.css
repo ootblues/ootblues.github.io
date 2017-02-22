@@ -114,7 +114,7 @@ section.first-boxes{
   height: auto;
   padding-top: 3%;
   padding-bottom: 3%;
-  background-color: #000;
+  background-color: #0A0A1A;
   overflow:hidden;
 }
 .first-boxes-container {
@@ -126,16 +126,17 @@ section.first-boxes{
   margin-left: 2.5%;
   margin-right: 2.5%;
   float: left;
-  color: #e5e5e5;
+  color: #DFDFFF;
 }
  div.box h1.header {
   font-size: 2em;
   display: inline-block;
+  text-align: center;
 }
  div.box hr {
   width: 95%;
-  height: 1px;
-  background-color: #e5e5e5;
+  height: 3px;
+  background-color: #e5e5FF;
 }
 div.box p {
   width: 95%;
@@ -164,7 +165,7 @@ div.blog-box > p > a:hover {
 section.projectssection{
   width:100%;
   background-color: #3366FF;
-  padding-top: 3%;
+  padding-top: 1.5%;
   min-height: 30%;
 }
 section.projectssection h1{
