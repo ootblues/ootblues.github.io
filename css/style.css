@@ -31,7 +31,7 @@ h1,h2,h3,h4,h5,h6{
     width:calc(20% - 1px);
     border-right:  1px solid #3E79DB;
     border-bottom: 1px solid #3E79DB;
-    background-color:rgba(0,0,0,1);
+    background-color:rgba(0,0,0,0.8);
     float:left;
     padding-top: 1vw;
     padding-bottom: 1vw;
@@ -50,7 +50,7 @@ h1,h2,h3,h4,h5,h6{
     border-right: 0px;
     padding: 0vw;
     padding-right: 1px;
-    background-color:rgba(0,0,0,1);
+    background-color:rgba(0,0,0,0.8);
 }
 .header2 div.logo12{
     height: 100%;
@@ -63,7 +63,7 @@ h1,h2,h3,h4,h5,h6{
     width:calc(80% - 1px);
     height: calc(7vh - 1px);
     border-bottom: 1px solid #3E79DB;
-    background-color:rgba(0,0,0,1);
+    background-color:rgba(0,0,0,0.8);
     float:left;
     text-align: right;
     color: #fff;
