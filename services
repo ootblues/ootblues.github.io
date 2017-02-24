@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+        <!--Basic browser/device info-->
+        <title>Out Of the Blue Studios</title>
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400" rel="stylesheet">
+		<!--Style and Scripts-->
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="./slick/slick.css">
+		<link rel="stylesheet" type="text/css" href="./slick/slick-theme.css">
+		
+		<!--Mobile Optimization-->
+		<meta name="viewport" content="width=device-width, initial-scale=1">    
+	 </head>
+     <body>
+        <header>Services</header>
+     
+     
+     </body/>
+     </body>
+</html>
