@@ -216,6 +216,7 @@ section.aboutussection h1.header{
 div.aboutussectionboxes{
   width: 100%;
   color: #fff;
+overflow:hidden;
 }
 div.aboutussectionbox{
   float: left;
