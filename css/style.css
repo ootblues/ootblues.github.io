@@ -74,6 +74,10 @@ p{
 }
 .header_nav2 ul {
     list-style-type: none;
+	line-height:calc(7vh - 1px);
+}
+.header_nav2 ul li {
+    list-style-type: none;
 }
 /*Header End*/
 
