@@ -269,10 +269,10 @@ div.aboutussectionbox{
   font-size: 1.3em;
 	overflow:hidden;
 }
-section.aboutussectionbox a {
+div.aboutussectionbox a {
   color:#DFDFFF;
 }
-section.aboutussectionbox a:hover {
+div.aboutussectionbox a:hover {
   color:#777;
 }
 div.box25{
