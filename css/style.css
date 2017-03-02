@@ -85,6 +85,9 @@ p{
     text-decoration:none;
 	color:#fff;
 }
+.header_nav2 ul li a {
+	display: inline-block;
+}
 /*Header End*/
 
 /*Section Breaker Start*/
