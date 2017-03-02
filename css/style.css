@@ -132,10 +132,10 @@ section.first-boxes{
   color: #DFDFFF;
 }
 .first-boxes-container div.box a {
-  color:#fff;
+  color:#DFDFFF;
 }
 .first-boxes-container div.box a:hover {
-  color:#555;
+  color:#777;
 }
  div.box h1.header {
   font-size: 2em;
