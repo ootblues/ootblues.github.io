@@ -79,6 +79,11 @@ p{
 }
 .header_nav2 ul li {
     list-style-type: none;
+	border: 1px solid #3E79DB;
+}
+.header_nav2 ul li a{
+    text-decoration:none;
+	color:#fff;
 }
 /*Header End*/
 
