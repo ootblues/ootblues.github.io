@@ -253,6 +253,12 @@ section.aboutussection{
   min-height: 30%;
 	overflow:hidden;
 }
+section.aboutussection a {
+  color:#DFDFFF;
+}
+section.aboutussection a:hover {
+  color:#777;
+}
 section.aboutussection h1.header{
   width:100%;
   background-color: #3366FF;
