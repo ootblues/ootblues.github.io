@@ -178,6 +178,7 @@ section.projectssection{
   background-color: #3366FF;
   padding-top: 1.5%;
   min-height: 30%;
+	overflow:hidden;
 }
 section.projectssection h1{
   width:100%;
