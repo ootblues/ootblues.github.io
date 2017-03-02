@@ -75,6 +75,7 @@ p{
 .header_nav2 ul {
     list-style-type: none;
 	line-height:calc(7vh - 1px);
+	padding-right:10vw;
 }
 .header_nav2 ul li {
     list-style-type: none;
