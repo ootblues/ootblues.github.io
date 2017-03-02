@@ -72,6 +72,9 @@ p{
     color: #fff;
     margin-bottom: 200%;
 }
+.header_nav2 ul {
+    list-style-type: none;
+}
 /*Header End*/
 
 /*Section Breaker Start*/
