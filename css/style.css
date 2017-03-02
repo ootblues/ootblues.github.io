@@ -253,12 +253,6 @@ section.aboutussection{
   min-height: 30%;
 	overflow:hidden;
 }
-section.aboutussectionbox a {
-  color:#DFDFFF;
-}
-section.aboutussectionbox a:hover {
-  color:#777;
-}
 section.aboutussection h1.header{
   width:100%;
   background-color: #3366FF;
@@ -274,6 +268,12 @@ div.aboutussectionbox{
   float: left;
   font-size: 1.3em;
 	overflow:hidden;
+}
+section.aboutussectionbox a {
+  color:#DFDFFF;
+}
+section.aboutussectionbox a:hover {
+  color:#777;
 }
 div.box25{
   width:25%;
