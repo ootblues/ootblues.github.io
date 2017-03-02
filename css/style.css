@@ -271,11 +271,10 @@ div.aboutussectionbox{
 }
 .aboutussectionbox > a {
   color:#DFDFFF;
-	text-decoration:none;
+	text-decoration:underline;
 }
 .aboutussectionbox > a:hover {
   color:#777;
-	text-decoration:underline;
 }
 div.box25{
   width:25%;
