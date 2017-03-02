@@ -220,30 +220,30 @@ section.screenshotssection p{
   text-align: center;
   font-size: 2em;
 }
-.screenshotflexboxes{
-			display: flex; /* or inline-flex */
-			flex-wrap: wrap;
-		}
-		.screenshotflexboxes div{
-			width:22%;
-			padding-top: 2.5vw;
-			padding-bottom: 2.5vw;
-			padding-left: 1.5vw;
-			padding-right: 1.5vw;
-			background-color: rgba(0,0,0,0.5);
-		}
-		.screenshotflexboxes div img{
-			width: 100%;
-		}
-		@media (max-width: 480px) { /*breakpoint*/
-			.screenshotflexboxes div{
-			width:47%;
-			}
-			/*The boxes you want to disable in mobile view*/
-			.screenshotflex5, .screenshotflex8, .screenshotflex4, .screenshotflex1{
-				display: none;
-			}
-		}
+div.screenshotflexboxes{
+  display: flex; /* or inline-flex */
+  flex-wrap: wrap;
+}
+div.screenshotflexboxes div{
+  width:22%;
+  padding-top: 2.5vw;
+  padding-bottom: 2.5vw;
+  padding-left: 1.5vw;
+  padding-right: 1.5vw;
+  background-color: rgba(0,0,0,0.5);
+}
+div.screenshotflexboxes div img{
+  width: 100%;
+}
+@media (max-width: 480px) { /*breakpoint*/
+	div.screenshotflexboxes div{
+	  width:47%;
+	}
+	/*The boxes you want to disable in mobile view*/
+	div.screenshotflex5, div.screenshotflex8, div.screenshotflex4, div.screenshotflex1{
+	  display: none;
+	}
+}
 /*Section Screenshots End*/
 
 /*Section About Us Start*/
