@@ -220,6 +220,7 @@ div.aboutussectionboxes{
 div.aboutussectionbox{
   float: left;
   font-size: 1.3em;
+	overflow:hidden;
 }
 div.box25{
   width:25%;
