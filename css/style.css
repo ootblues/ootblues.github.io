@@ -131,6 +131,12 @@ section.first-boxes{
   float: left;
   color: #DFDFFF;
 }
+.first-boxes-container div.box a {
+  color:#fff;
+}
+.first-boxes-container div.box a:hover {
+  color:#555;
+}
  div.box h1.header {
   font-size: 2em;
   display: inline-block;
