@@ -162,6 +162,14 @@ div.blog-box > p > a {
 div.blog-box > p > a:hover {
   color: #fff;
 }
+@media (max-width: 480px) { /*breakpoint*/
+div.welcome-box {
+  width: 100%;
+}
+div.blog-box {
+  width: 100%;
+}
+}
 /*Section Firstboxes End*/
 
 /*Section Projects Start*/
@@ -237,6 +245,14 @@ div.boxmiddle{
 }
 div.boxright{
   text-align: right;
+}
+@media (max-width: 480px) { /*breakpoint*/
+div.box25{
+  width:100%;
+}
+div.box50{
+  width:100%;
+}
 }
 /*Section About Us End*/
 
