@@ -269,11 +269,11 @@ div.aboutussectionbox{
   font-size: 1.3em;
 	overflow:hidden;
 }
-div.aboutussectionbox > a {
+.aboutussectionbox > a {
   color:#DFDFFF;
 	text-decoration:none;
 }
-div.aboutussectionbox > a:hover {
+.aboutussectionbox > a:hover {
   color:#777;
 	text-decoration:underline;
 }
