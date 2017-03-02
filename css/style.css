@@ -81,6 +81,7 @@ p{
 .header_nav2 ul li {
     list-style-type: none;
 	width:auto;
+	display:inline-block;
 }
 .header_nav2 ul li a{
     text-decoration:none;
