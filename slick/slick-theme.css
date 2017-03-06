@@ -43,9 +43,7 @@
     z-index: 100;
 }
 .slick-prev:hover,
-.slick-prev:focus,
 .slick-next:hover,
-.slick-next:focus
 {
     color: transparent;
     outline: none;
