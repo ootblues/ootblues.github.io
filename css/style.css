@@ -118,11 +118,6 @@ section.slider{
   height: 80vh;
 }
 
-.slick-prev:before,
-.slick-next:before {
-    color: black;
-}
-
 
 
 /*Section Slider End*/
