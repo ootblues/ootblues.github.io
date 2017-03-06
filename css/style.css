@@ -101,9 +101,10 @@ div.sectionbreaker{
 
 /*Section Slider Start*/
 section.slider{
-  width: 100%;
-  height: auto;
-  max-height: 85%;
+   width: 100%;
+   height: auto;
+   max-height: 85%;
+   background-color: #999;
 }
 
 .slick-slide {
