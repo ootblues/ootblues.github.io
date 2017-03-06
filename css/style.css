@@ -93,9 +93,10 @@ p{
 /*Section Breaker Start*/
 
 div.sectionbreaker{
-  color: #3366FF;
+  background-color: #3366FF;
   height: 3%;
-	z-index: 99999;
+  z-index: 99999;
+  Opacity: 1;
 }
 
 /*Section Breaker End*/
