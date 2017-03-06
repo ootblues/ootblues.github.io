@@ -115,6 +115,7 @@
 /* Dots */
 .slick-dotted.slick-slider
 {
+    position: relative;
     margin-bottom: 0px;
 }
 
