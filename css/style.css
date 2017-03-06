@@ -97,7 +97,6 @@ div.sectionbreaker{
   height: 3%;
   opacity: 1;
   overflow: hidden;
-  display: inline-block;
 }
 
 /*Section Breaker End*/
@@ -106,7 +105,7 @@ div.sectionbreaker{
 section.slider{
   width: 100%;
   height: auto;
-  max-height: 85%;
+  max-height: 80%;
   background-color: #999;
 }
 
