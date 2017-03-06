@@ -97,6 +97,7 @@ div.sectionbreaker{
   height: 3%;
   opacity: 1;
   overflow: hidden;
+  display: inline-block;
 }
 
 /*Section Breaker End*/
