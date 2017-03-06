@@ -117,10 +117,12 @@ section.slider{
   width: 100vw;
   height: 80vh;
 }
+
 .slick-prev:before,
 .slick-next:before {
-    color: black;
+    color: orange;
 }
+
 
 
 /*Section Slider End*/
