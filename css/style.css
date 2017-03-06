@@ -105,6 +105,7 @@ section.slider{
    height: auto;
    max-height: 85%;
    background-color: #999;
+   overflow: hidden;
 }
 
 .slick-slide {
